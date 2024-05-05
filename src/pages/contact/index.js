@@ -1,9 +1,14 @@
-import React from 'react'
-
+import React from "react";
+import { Link } from "react-router-dom";
+import Layout from "../../components/layout";
+import './contact.css'
 const Contact = () => {
   return (
-    <div>Contact page</div>
-  )
-}
+    <Layout>
+      <h2 className='title'>Contact page</h2>
+      <Link to={"/"}>back home</Link>
+    </Layout>
+  );
+};
 
-export default Contact
+export default Contact;

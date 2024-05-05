@@ -1,0 +1,11 @@
+.header{
+  font-size: 20px;
+  background-color: red;
+  color: white;
+}
+
+.btn{
+  background: blue;
+  color: aquamarine;
+  padding: 10px;
+}
